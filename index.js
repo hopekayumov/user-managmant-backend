@@ -14,7 +14,7 @@ app.use(cookieParser());
 
 mongoose
   .connect(
-    "mongodb+srv://Umid:umidjon1332!@usermanagement.n4kaxaj.mongodb.net/application"
+    "mongodb+srv://umidjon:umidjon1332@cluster0.7klne2e.mongodb.net/?retryWrites=true&w=majority"
   )
   .then(() =>
     app.listen(process.env.PORT || 1337, () => {
